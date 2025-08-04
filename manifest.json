@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Perplexity Command+Enter Sender",
+  "version": "1.0",
+  "description": "Prevents sending on Enter and enables sending with Command+Enter on perplexity.ai.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.perplexity.ai/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

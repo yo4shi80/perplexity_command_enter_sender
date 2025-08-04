@@ -1,0 +1,1 @@
+This project aims to create a program similar to "ChatGPT Ctrl+Enter Sender" for Perplexity.
